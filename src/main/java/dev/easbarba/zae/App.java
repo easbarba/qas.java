@@ -2,6 +2,8 @@ package dev.easbarba.zae;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        var run = new Run();
+        run.configuration().forEach(System.out::println);
     }
+
 }

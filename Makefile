@@ -7,7 +7,7 @@ test:
 build:
 	./mvnw verify
 
-run:
+run: build
 	java -jar target/zae-${ZAE_VERSION}.jar
 
 image:
