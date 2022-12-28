@@ -20,6 +20,6 @@ public class ConfigTests {
         filePathsFound.add(Path.of("/home/user/.config/zae/apt.json"));
         filePathsFound.add(Path.of("/home/user/.config/zae/dnf.json"));
 
-        assertEquals(filePathsFound, config.Found("/home/user", files));
+        assertEquals(filePathsFound, config.All("/home/user", files));
     }
 }

@@ -16,7 +16,7 @@ public class AppTests {
         files.add(Path.of("/home/easbarba/.config/zae/apt.json"));
         files.add(Path.of("/home/easbarba/.config/zae/dnf.json"));
 
-        assertEquals(files, new Run().configuration());
+        assertEquals(files, new Common().configuration());
     }
 
 }
